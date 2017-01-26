@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 APPLICATION='joe'
-VERSION=4.3
+VERSION=4.4
 
 
 set -e -x
