@@ -7,7 +7,7 @@ VERSION=5.2.3
 set -e -x
 pushd -n "$(pwd)"
 
-DIR="$(dirname "$0")"
+DIR="$(cd "$(dirname "$0")" && pwd)"
 
 cd "${DIR}/${APPLICATION}-${VERSION}"
 

@@ -8,8 +8,7 @@ GEOIP_VERSION=1.6.9
 set -e -x
 pushd -n "$(pwd)"
 
-DIR="$(dirname "$0")"
-
+DIR="$(cd "$(dirname "$0")" && pwd)"
 
 
 # ==== GeoIP ====
